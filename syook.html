@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <title>Syook</title>
+    <body>
+        <link href="syook_style.css" rel="stylesheet">
+        <script type="text/javascript" src="syook_js.js"></script> 
+        <h1>Syook Test for Front End Developer</h1>
+        <center>
+            <input type="button" onClick="window.location='syook_list.html';" id="list_button" value="List of notes" />
+            <form id="syook_form" method="POST">
+                <input type="text" id="title" name="title" placeholder="Title">
+                <br>
+                <textarea rows = "5" cols = "50" name = "description" id= "description" placeholder="Description"></textarea>
+                <br>
+                <button class="button button1" type="submit" onclick="submit_form();">Submit</button>
+            </form>
+        </center> 
+    </body>
+</html>
